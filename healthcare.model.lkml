@@ -1,9 +1,9 @@
-connection: "lookerdata"
+connection: "looker-private-demo"
 # include: "/demo_vitals/*.view.lkml"
 include: "/simplified_views/*.view.lkml"
 include: "/unnested_views/*.view.lkml"
 include: "/realtime_views/*.view.lkml"
-include: "dashboards/*.dashboard.lookml"
+include: "/dashboards/*.dashboard.lookml"
 
 label: "1) Healthcare Systems and Providers"
 
