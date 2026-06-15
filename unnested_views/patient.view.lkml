@@ -16,7 +16,7 @@ view: patient {
   dimension: birth_raw {
     hidden: yes
     type: date_raw
-    sql: CAST(PARSE_DATETIME('%Y-%m-%d', ${TABLE}.birthDate) as TIMESTAMP) ;;
+    sql: ${TABLE}.birthDate ;;
   }
 
   dimension: birth_date {
