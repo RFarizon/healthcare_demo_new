@@ -2,7 +2,7 @@
 # unnested arrays are included as view with their own dimensions below
 
 view: patient {
-  sql_table_name: looker-private-demo.healthcare_demo_data.Patient ;;
+  sql_table_name: looker-private-demo.healthcare_demo_live.Patient ;;
   drill_fields: [id]
 
   #########  Standard dimensions  #########
