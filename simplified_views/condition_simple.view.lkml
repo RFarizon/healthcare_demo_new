@@ -1,5 +1,5 @@
 view: condition_simple {
-  sql_table_name: lookerdata.healthcare_demo_live.simple_condition ;;
+  sql_table_name: looker-private-demo.healthcare_demo_live.simple_condition ;;
   drill_fields: [id]
 
   dimension: id {

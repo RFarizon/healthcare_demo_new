@@ -10,7 +10,7 @@ SELECT
     when encounter.class.code = 'EMER' then 'Emergency Department' end AS encounter_code_name,
   encounter.period.start as visit_start,
   rank () over (partition by encounter.subject.patientId order by encounter.period.start desc) as encounter_rank
-  FROM lookerdata.healthcare_demo_live.encounter  AS encounter
+  FROM looker-private-demo.healthcare_demo_live.encounter  AS encounter
   --WHERE encounter.class.code = 'IMP'
 GROUP BY 1,2,3,4,5
 )
