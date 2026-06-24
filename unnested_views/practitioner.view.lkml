@@ -1,5 +1,5 @@
 view: practitioner {
-  sql_table_name: looker-private-demo.healthcare_demo_live.Practitioner ;;
+  sql_table_name: looker-private-demo.healthcare_demo_live.practitioner ;;
   drill_fields: [id]
 
   #########  Standard dimensions  #########
