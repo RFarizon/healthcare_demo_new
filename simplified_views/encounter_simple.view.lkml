@@ -1,5 +1,5 @@
 view: encounter_simple {
-  sql_table_name: healthcare_demo_live.encounter_simple ;;
+  sql_table_name: looker-private-demo.healthcare_demo_live.encounter_simple ;;
   drill_fields: [id]
 
   dimension: id {
